@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  semiphemeral:
+    build: .
+    volumes:
+      - ./data:/home/semi/.semiphemeral
